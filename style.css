@@ -42,6 +42,7 @@ p {
   color: white;
   background-color: black;
   border-color: black;
+  font-family: var(--default-font);
 }
 
 .btn:hover {
