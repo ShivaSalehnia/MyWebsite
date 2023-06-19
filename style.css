@@ -1,10 +1,50 @@
+:root {
+  --default-font: "Quicksand", sans-serif;
+  --title-font: "Comfortaa", cursive;
+  --brand-color: #61d433;
+}
+
 h1 {
   font-size: 96px;
   font-weight: bold;
-  font-family: "Comfortaa", cursive;
+  font-family: var(--title-font);
 }
 p {
   font-size: 18px;
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--default-font);
   font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 10px;
+  line-height: 2;
+}
+
+.hero p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hero h2 {
+  font-family: var(--default-font);
+  font-size: 24px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin: 20px 20px;
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.btn:hover {
+  background-color: var(--brand-color);
+  border-color: none;
 }
