@@ -79,10 +79,12 @@ p {
 .detailedPargraph {
   font-family: var(--default-font);
   font-weight: normal;
+  margin: 0px;
 }
 .learnMore {
   text-decoration: underline;
   color: black;
+  line-height: 4;
 }
 @media (max-width: 768px) {
   h1 {
