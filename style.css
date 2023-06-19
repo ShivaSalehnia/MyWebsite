@@ -48,3 +48,12 @@ p {
   background-color: var(--brand-color);
   border-color: none;
 }
+.subHero {
+  background-color: rgba(238, 234, 234, 0.577);
+  padding: 80px;
+}
+
+.subHero h3 {
+  font-family: var(--title-font);
+  font-weight: bolder;
+}
