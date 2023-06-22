@@ -2,6 +2,7 @@
   --default-font: "Quicksand", sans-serif;
   --title-font: "Comfortaa", cursive;
   --brand-color: #61d433;
+  --back-color: rgba(238, 234, 234, 0.577);
 }
 
 h1 {
@@ -52,7 +53,7 @@ p {
   border-color: none;
 }
 .subHero {
-  background-color: rgba(238, 234, 234, 0.577);
+  background-color: var(--back-color);
   padding: 80px;
 }
 
@@ -100,4 +101,23 @@ p {
   .projectDescription {
     margin: 10px 5px;
   }
+  .blogHome p {
+    text-align: center;
+  }
+}
+.blogHome {
+  background-color: var(--back-color);
+}
+.blogHome h3 {
+  font-family: var(--title-font);
+  font-weight: bolder;
+}
+.blogHome p {
+  font-size: 50px;
+  margin-left: 0px;
+  color: var(--brand-color);
+}
+.blogHome h5,
+h6 {
+  font-family: var(--title-font);
 }
