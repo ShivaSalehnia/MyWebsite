@@ -3,6 +3,7 @@
   --title-font: "Comfortaa", cursive;
   --brand-color: #61d433;
   --back-color: rgba(238, 234, 234, 0.577);
+  --border-color: rgb(97, 212, 51, 0.2);
 }
 
 h1 {
@@ -57,7 +58,7 @@ p {
   padding: 80px;
 }
 
-.subHero h3 {
+h3 {
   font-family: var(--title-font);
   font-weight: bolder;
 }
@@ -70,7 +71,7 @@ p {
 .projectDescription {
   margin: 10px 30px;
 }
-.projectDescription h4 {
+h4 {
   font-family: var(--title-font);
 }
 .projectDescription h6 {
@@ -104,14 +105,18 @@ p {
   .blogHome p {
     text-align: center;
   }
+  .listTags {
+    text-align: center;
+    font-size: 16px;
+  }
+  .projectPallett {
+    margin: 2px 10px;
+  }
 }
 .blogHome {
   background-color: var(--back-color);
 }
-.blogHome h3 {
-  font-family: var(--title-font);
-  font-weight: bolder;
-}
+
 .blogHome p {
   font-size: 50px;
   margin-left: 0px;
@@ -120,10 +125,6 @@ p {
 .blogHome h5,
 h6 {
   font-family: var(--title-font);
-}
-.contactHome h3 {
-  font-family: var(--title-font);
-  font-weight: bolder;
 }
 
 .buttonMeet {
@@ -156,4 +157,25 @@ h6 {
   opacity: 0.5;
   font-family: var(--default-font);
   color: gray;
+}
+.listTags {
+  list-style-type: none;
+  font-family: var(--default-font);
+  padding-left: 0;
+  font-size: 18px;
+}
+.projectPallett {
+  max-width: 1000px;
+  border: 1px solid var(--border-color);
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.buttonCourse {
+  padding: 10px 100px;
+  max-width: 500px;
+  border: solid 1px var(--brand-color);
+  border-radius: 6px;
+  background-color: var(--brand-color);
+  color: black;
 }
