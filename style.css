@@ -163,6 +163,7 @@ h6 {
 .buttonMeetForm {
   padding: 10px 50px;
   border-radius: 5px;
+  border-color: var(--brand-color);
   margin: 20px 0px;
   font-family: var(--default-font);
   font-weight: bolder;
